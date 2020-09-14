@@ -42,6 +42,7 @@ body {
 .link-button:focus,
 .nav-button:hover,
 .nav-button:focus,
+.nav-button:active,
 .gallery-progect:hover,
 .gallery-progect:focus {
   color: var(--link-color);
@@ -63,11 +64,15 @@ body {
 /*  Конец логотип */
 
 /* Навигация */
+.nav-link:active {
+  color: var(--link-color);
+}
 .nav-link {
   font-family: var(--main-font);
   color: var(--main-font);
-  font-style: 600;
+  font-style: normal;
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.142;
 }
 /* Конец Навигация */
@@ -75,6 +80,11 @@ body {
 /*  Контакты  */
 .contact-link-white-theme {
   color: var(--secondary-font-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
 }
 /* Конец Контакты */
 
@@ -88,6 +98,7 @@ body {
   text-transform: uppercase;
   font-style: normal;
   font-weight: 900;
+  font-size: 44px;
   line-height: 1.364;
   text-align: center;
   letter-spacing: 0.06em;
@@ -98,6 +109,7 @@ body {
   background-color: var(--link-color);
   font-size: 16px;
   line-height: 1.875;
+  font-weight: 700;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -121,6 +133,7 @@ body {
 .text-advantages {
   color: var(--secondary-font-color);
   font-style: normal;
+  font-weight: 600;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
