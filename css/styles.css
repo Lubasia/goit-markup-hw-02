@@ -78,6 +78,9 @@ body {
 /* Конец Навигация */
 
 /*  Контакты  */
+.address {
+  font-style: normal;
+}
 .contact-link-white-theme {
   color: var(--secondary-font-color);
   font-style: normal;
