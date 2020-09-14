@@ -13,17 +13,19 @@
   <body>
     <!-- Шапка сайта -->
     <header class="header">
-      <nav class="navigation">
+      <nav>
         <a class="logo-link link" href="./index.html" lang="en"
           >Web<span class="logo-font-white-theme" lang="en">Studio</span></a
         >
 
-        <ul>
+        <ul class="navigation">
           <li class="nav-list list">
             <a class="nav-link link" href="./index.html">Студия</a>
           </li>
           <li class="nav-list list">
-            <a class="nav-link link" href="./portfolio.html">Портфолио</a>
+            <a class="nav-link link current" href="./portfolio.html"
+              >Портфолио</a
+            >
           </li>
           <li class="nav-list list">
             <a class="nav-link link" href="">Контакты</a>
@@ -43,7 +45,8 @@
     </header>
     <main>
       <!--Кнопки фильтра-->
-      <section class="navigation">
+      <section class="filter">
+        <h2>filter</h2>
         <ul>
           <li class="nav-button list">
             <button class="btn" type="button">Все</button>
@@ -63,8 +66,9 @@
         </ul>
       </section>
       <!--Галерея работ-->
-      <section>
-        <h1>portfolio</h1>
+
+      <h1>portfolio</h1>
+      <section class="navigation">
         <ul>
           <li class="gallery list">
             <a class="gallery-img link" href=""

@@ -64,7 +64,7 @@ body {
 /*  Конец логотип */
 
 /* Навигация */
-.nav-link:active {
+.navigation .link.current {
   color: var(--link-color);
 }
 .nav-link {
